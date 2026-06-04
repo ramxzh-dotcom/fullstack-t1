@@ -1,35 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
+        body {
             height: 200vh;
         }
-        .navbar{
+
+        .navbar {
             position: sticky;
-            top: 0;     
+            top: 0;
         }
+
         .Relative {
             border: 2px solid green;
             position: relative;
-            height:50vh;
-            .absolute{
+            height: 50vh;
+        }
+            .absolute {
                 border: 2px solid red;
                 position: absolute;
                 margin: 10px;
                 margin-left: 50px;
-                }
-    .fixed{
-        position: fixed;
-    }   
+            }
+
+            .fixed {
+                position: fixed;
+            }
     </style>
-    </head>     
-    <body
-<div class="navbar">
+</head>
+
+<body >
+    <div class="navbar">
     <nav>
-        
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>service</li>
+            <li>contact</li>
+        </ul>
     </nav>
-</div>        
+    </div>
+    <div class="Relative">
+        <h1>Relative </h1>
+        <div class="absolute">
+            <h1>Absolute</h1>
+        </div>
+    </div>
+    <div class="fixed">fixed</div>
+</body>
+
+</html>
